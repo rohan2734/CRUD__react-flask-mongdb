@@ -1,0 +1,14 @@
+* create a backend folder,cd backend
+* pip install virtualenv
+ to install virtualenv
+* virtualenv venv
+  we named the virtualenv as venv, using virtualenv venv command
+* to activate the virtualenv , create  a new terminal(cmd), and cd backend
+* and click on the configuration settings, and select default as cmd,
+* and cd nackend
+* run the command, .\venv\Scripts\activate.bat
+and u will see something like this
+(venv) D:\Documents\github-projects\react-python-flask-mongodb\backend>
+
+* now we will install modules ,
+* run >pip install flask Flask-PyMongo flask-cors
