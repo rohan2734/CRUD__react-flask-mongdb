@@ -1,0 +1,23 @@
+* to install virtualenv
+>virtualenv -p python3 venv
+
+* to actiavte virtualenv
+.\venv\Scripts\activate.bat
+
+>pip install Flask 
+>pip list
+
+and create a app.py file
+
+now we need to create an instance of flask
+>python app.py
+* to run the flask app , and if debug is on , we can see errors, and production is false
+* and if production is true, turn debug to false
+
+* now if we go to , the   http://127.0.0.1:5000/, we can see hello world,
+* so instead of that, we can also add ,html
+
+* to turn off the server, press CTRl + C
+
+>export FLASK_ENV=development (it works in bash)
+* this changes the environment to development
