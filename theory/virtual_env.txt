@@ -21,3 +21,7 @@ now we need to create an instance of flask
 
 >export FLASK_ENV=development (it works in bash)
 * this changes the environment to development
+
+>touch vars.py( create vars.py file)
+
+
