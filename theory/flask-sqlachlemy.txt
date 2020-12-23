@@ -1,0 +1,21 @@
+* to store the data, we can use flask sql chlemy
+* object relational mapper, or it allows us to manage databases using higl level entities such as classes
+>pip install Flask-SQLAlchemy
+
+* it is used to manage databases using classes 
+
+* def __str__, it tells that we want to log the class as a string
+
+* now to initialize the database, do
+>python
+
+>from app import db
+* to create the database
+
+>for i in dir(db):
+    print(i) (give tab also and press enter)
+
+>db.create_all()
+>from app import TodoModel
+>todo = TodoModel( content = 'I want to eat',) //here 
+>db.session.add(todo)
