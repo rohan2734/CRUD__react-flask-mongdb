@@ -4,6 +4,9 @@
 * to actiavte virtualenv
 .\venv\Scripts\activate.bat
 
+* to activate venv in bash
+>source ./venv/Scripts/activate
+
 >pip install Flask 
 >pip list
 
