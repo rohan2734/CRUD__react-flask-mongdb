@@ -1,0 +1,10 @@
+>virtualenv -p python3 venv
+
+if it doesnt work , try force upgradingit:
+>pip install --upgrade 
+
+to activate
+>.\venv\Scripts\activate
+
+to install Flask
+>pip install Flask
