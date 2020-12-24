@@ -1,3 +1,0 @@
-* we can have on base.html,
-* and we can use {% extends 'pageName.html' %}
-* and we can add {% block content %} {% endblock content%} , in the base.html, and every page

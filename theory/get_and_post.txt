@@ -1,4 +1,0 @@
-* here after creating a form in hello.html, and mentioning the action as '/'
-* at first the request is GET, but when we submit it is POST,
-* now, inorder to log the data, we will use the if(request.form) condition
-* and  when the request is post, we will redirect to name
