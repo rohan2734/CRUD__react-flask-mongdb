@@ -1,0 +1,10 @@
+if virtualenv is not setup
+>pip install virtualenv
+
+to create a  virtualenv
+>virtualenv -p python3 venv
+
+to actiavte venv in cmd
+>.\venv\Scripts\actiavte
+
+for cloud we need to install dnspython also

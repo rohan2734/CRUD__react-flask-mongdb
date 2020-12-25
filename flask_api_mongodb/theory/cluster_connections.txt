@@ -1,0 +1,3 @@
+mongodb+srv://<username>:<password>@cluster0.3kcv6.mongodb.net/<dbname>?retryWrites=true&w=majority
+password = yY6XPDaciy8j7SDd
+user = flaskMongo
