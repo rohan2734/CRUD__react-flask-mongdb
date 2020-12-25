@@ -8,3 +8,5 @@ to activate
 
 to install Flask
 >pip install Flask
+
+>pip install python-dotenv
