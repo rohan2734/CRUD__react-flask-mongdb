@@ -1,1 +1,5 @@
-https://blog.pythonanywhere.com/178/
+pythonanywhere blog
+>https://blog.pythonanywhere.com/178/
+
+official docs
+>https://www.mongodb.com/blog/post/getting-started-with-python-and-mongodb
