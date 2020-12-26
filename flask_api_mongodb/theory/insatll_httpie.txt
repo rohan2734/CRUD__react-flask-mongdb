@@ -1,0 +1,7 @@
+first make sure that inside the venv, the app is running
+
+in another terminal
+>pip install --upgrade httpie
+
+example endpoint
+>http POST http://127.0.01:5000/api/db_populate
