@@ -112,6 +112,7 @@ def api_each_book(book_id):
     elif request.method == 'PUT':
         pass
     elif request.method == 'DELETE':
+        pass
 
 if __name__ == '__main__':
     app.run(debug=True)
