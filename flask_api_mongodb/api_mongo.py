@@ -110,9 +110,23 @@ def api_each_book(book_id):
         else:
             return make_response("",404)
     elif request.method == 'PUT':
-        pass
+         """
+        Sample request body
+        {
+            "book_id" : 1,
+            "name":"A game of thrones",
+            "author":"George R Martin"
+        }
+        """
+         content = request.json #converts json data to dictionary
+         book_obj = Book.objects(book_id=book_id).first()
+         book_obj.update(author=content['author'] , name = content['name'])
+         return make_response("",204)
+
     elif request.method == 'DELETE':
-        pass
+        book_obj = Book.objects(book_id=book_id).first()
+        book_obj.delete()
+        return make_response("",204)
 
 if __name__ == '__main__':
     app.run(debug=True)
