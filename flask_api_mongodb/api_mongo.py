@@ -77,7 +77,7 @@ def db_populate():
     
 
 @app.route('/api/books',methods=['GET','POST'])
-def api_books():
+def api_books(self):
     if request.method == 'GET':
         books=[]
         for book in Book.objects:
