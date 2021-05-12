@@ -1,0 +1,19 @@
+Hi, I got a microsoft form that I want to make a website + mobile app. This is the form:
+
+https://forms.office.com/Pages/ShareFormPage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAMAAM-E3L9UOEFZNEFQVUxYQlFESEtRVDNVTlFKVkdXMi4u&sharetoken=C6C0PdXjgcvqUiyYanBO
+
+Each form represent a renovation project and what the user want to do. Basically there should be several pages:
+
+1. User login and personal portal with all the previous quotes.
+2. Option to add a new quote or delete previous quotes. When adding a quote the user fill up the form. 
+3. Once the user finish filling up the form, the software should auto generate a quote. That's basically sum of everything that the user has selected. Than the user should have an option to email that to the customer/to himself. 
+
+I want to build it with Flask + MongoDB for backend. For front end probaly react + bootstrap to make it easy to change the design. I'm going to deploy that on AWS, unless you suggest something else. 
+
+As you can see from the form, it has quite a lot of details. I want the questions to be generated through classes, and have some easy way to add/change questions when I'll make the modifications afterwards. What I mean is that I want to have some functional way to add questions and change the form. 
+
+I want the following functionality:
+- Admin panel to create the form
+- User panel to fill up the form & watch older forms
+- Form saved on DB
+- Ability to auto-render a quote from the form. The user enter the user details and the customer details and a pdf is being downloaded / sent through email to the customer.

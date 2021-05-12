@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+.logo {
+  width: 80px;
+  height: 80px;
+  position: relative;
+  top: 20px;
+  left: 50px;
+}
+.bg {
+  position: fixed;
+  transform: scale(0.87);
+  top: -150px;
+}
+body {
+  background-color: #f4f4f4;
+}
+.login {
+  position: relative;
+  top: 50px;
+  margin-right: 50px;
+  float: right;
+  width: 420px;
+  height: 540px;
+  background-color: #ef484f;
+  color: white;
+  border-radius: 10px;
+}
+.signvec {
+  transform: scale(0.9);
+  position: relative;
+  margin-top: -70px;
+  left: -20px;
+}
+.signin {
+  position: relative;
+  top: -40px;
+  margin-right: 80px;
+  float: right;
+  width: 580px;
+  height: 700px;
+  background-color: #ef484f;
+  color: white;
+  border-radius: 10px;
+}
+.signin input {
+  position: relative;
+  left: -20px;
+}
+.signin div {
+  display: inline-flex;
+}
+.signin div input {
+  width: 190px;
+  margin-right: 20px;
+}
+
+.vec1 {
+  transform: scale(1.01);
+  position: absolute;
+  top: 100px;
+  left: 100px;
+}
+.inputs {
+  position: relative;
+  top: 20%;
+  margin-left: 15%;
+}
+.inputs input {
+  display: block;
+  margin-bottom: 40px;
+  line-height: 2;
+  font-size: 1rem;
+  padding: 5px;
+  border: 2px solid #ef484f;
+  padding: 10px;
+  outline: none;
+  width: 18rem;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 0.08rem;
+}
+.buttons {
+  position: relative;
+  top: 120px;
+  left: 40%;
+  outline: none;
+  background-color: #ffc93c;
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  border-color: transparent;
+  cursor: pointer;
+  font-weight: 700;
+  letter-spacing: 0.09rem;
+}
+.buttons1 {
+  outline: none;
+  background-color: #ffc93c;
+  color: white;
+  padding: 0.5rem 1.5rem;
+  border-radius: 10px;
+  border-color: transparent;
+  cursor: pointer;
+  font-weight: 600;
+  cursor: pointer;
+  letter-spacing: 0.09rem;
+}
+.btnsgn {
+  top: -10px;
+  left: 27%;
+}
+.subfirst {
+  height: 410px;
+  width: 700px;
+  position: relative;
+  margin-bottom: 20px;
+  left: 25%;
+  text-align: center;
+  padding: 20px;
+  color: #ffffff;
+  background-color: #ef484f;
+  border-radius: 10px;
+}
+.first {
+  height: 410px;
+  width: 700px;
+  position: absolute;
+  left: 25%;
+  text-align: center;
+  padding: 20px;
+  color: #ffffff;
+  background-color: #ef484f;
+  border-radius: 10px;
+}
+.question {
+  display: block;
+  position: relative;
+  left: 10px;
+  top: 20px;
+  margin-bottom: 40px;
+  line-height: 2;
+  font-size: 1rem;
+  padding: 5px;
+  border: 2px solid #ef484f;
+  padding: 10px;
+  outline: none;
+  width: 40rem;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 0.08rem;
+}

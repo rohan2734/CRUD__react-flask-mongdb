@@ -1,0 +1,29 @@
+Fix
+To address this problem you need to simply run the following commands:
+
+First, remove your current version of virtualenv: pip uninstall virtualenv
+
+Then, remove your current version of pipenv: pip uninstall pipenv
+
+When you are asked Proceed (y/n)? just enter y. This will give you a clean slate.
+
+Finally, you can once again install pipenv and its dependencies: pip install pipenv
+
+This will also install the latest version of virtualenv.
+
+Testing if it worked
+Just enter pipenv --version in the command prompt and you should see the desired output.
+
+for installation of flask
+>pipenv install flask
+
+for activating pipenv
+>pipenv shell
+
+to run the flask app
+>python app.py
+
+>pipenv install flask-mongoengine
+
+to exit pipenv
+>exit
